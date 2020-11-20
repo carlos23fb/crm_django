@@ -3,5 +3,13 @@ from django.http import HttpResponse
 # Create your views here.
 
 
-def index(request):
-    return HttpResponse("Hi, from accounts app")
+def home(request):
+    return HttpResponse("Home")
+
+
+def customer(request):
+    return HttpResponse("Customer")
+
+
+def products(request):
+    return HttpResponse("Products")
